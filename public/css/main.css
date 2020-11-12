@@ -1,0 +1,81 @@
+body, html{
+    position:absolute;
+    top:0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-size: 0px;
+}
+#content{
+    width: 100%;
+    height: 100%;
+}
+
+.key {
+    float: left;
+    position: relative; 
+}
+
+.white {
+    height: 14.4vw;
+    width: 4.5vw;
+    z-index: 1;
+    border-top: 0.12vw solid #AAAAAA;
+    border-bottom: 0.12vw solid #AAAAAA;
+    border-left: 0.12vw solid #AAAAAA;
+    background-color: #CBCBCB;
+}
+
+.black {
+    height: 7.92vw;
+    width: 2.0952380952vw;
+    z-index: 2;
+    border: 0.12vw solid #000000;
+    background-color: #222222;
+}
+
+.a, .b, .d, .e, .g, .black {
+    margin: 0 0 0 -1.1676190476vw;
+}
+
+#keyboard > .note:last-child {
+    border-right: 0.12vw solid #AAAAAA;
+}
+#keyboard{
+    padding-left: 2vw;
+    position: absolute;
+    bottom:0;
+}
+#inf{
+    font-size: 50px;
+    color: white;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    margin-top: 10%;
+}
+#harmony_slide{
+    width: 100%;
+    height: 5vw;
+    background: #AAAAAA;
+    bottom: 15vw;
+    position:absolute;
+}
+#slide{
+    height: 5vw;
+    width: 5vw;
+    background: white;
+    border-radius: 5vw;
+    position: absolute;
+}
+#controls{
+    width: 100%;
+    height: 5vw;
+    background: #AAAAAA;
+    bottom: 20.5vw;
+    position:absolute;
+}
